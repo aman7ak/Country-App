@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country Rest API</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="heading-container">
+        <h2>Where in the world?</h2>
+        <div class="theme">
+          <i class="ri-moon-line theme-moon"></i>
+          <i class="ri-sun-line theme-sun"></i>
+          <p class="theme-dark">Dark Mode</p>
+          <p class="theme-light">Light Mode</p>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="search">
+        <div class="input">
+          <i class="ri-search-2-line searchIcon"></i>
+          <input
+            class="inputVal"
+            type="text"
+            placeholder="Search for a country..."
+          />
+        </div>
+        <div class="menu">
+          <div class="dropdown">
+            <li class="filteredLi">Filter by Region</li>
+            <i class="ri-arrow-down-s-fill downArrow"></i>
+            <div class="options">
+              <li class="optionsLi">Filter by Region</li>
+              <li class="optionsLi">Africa</li>
+              <li class="optionsLi">America</li>
+              <li class="optionsLi">Asia</li>
+              <li class="optionsLi">Europe</li>
+              <li class="optionsLi">Oceania</li>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="country-section"></section>
+      <section class="detail-section">
+        <button class="back"><i class="ri-arrow-left-long-line"></i> Back</button>
+        <section class="detail">
+          <div class="flag-img">
+            <img src="" alt="">
+          </div>
+          <div class="content">
+            <div class="country-name">
+              <h2 class="name">Country Name</h2>
+            </div>
+            <div class="country-details">
+              
+            </div>
+            <div class="country-border">
+              <p>Border:</p>
+              <div class="border-country-data">
+                
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
