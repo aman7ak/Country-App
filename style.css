@@ -184,7 +184,7 @@ main {
 
 .country-section{
   display: flex;
-  gap: 4rem;
+  gap: 2.5rem;
   flex-wrap: wrap;
   justify-content: center;
 }
